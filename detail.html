@@ -3,87 +3,94 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>The Christmas Store</title>
+	<title>Web Apps Project</title>
     <link rel="stylesheet" href="myStyle.css" type="text/css">
 </head>
 
 <body>
     <header class="banner">
-        <h1>Welcome to Our Christmas Store</h1>
-        <p>This page should be tried in safari, chrome or Mozila.</p>
-        <img class="paw" src="Panther-Paw.png" alt="Paw" width="300px" height="400px">
+        <div>
+            <h1>Welcome to The To-Do List</h1>
+            <p>This page should be tried in safari, chrome or Mozila.</p>
+            <img class="paw" src="Panther-Paw.png" alt="Paw">
+        </div>
+        <nav class="loginname">
+            <ul>
+                <li>Login Name Placeholder</li>
+            </ul>
+        </nav>
+        <nav class="usernav">
+            <ul class="userul">
+                <li> <a href="list.html">SIGN UP</a></li>
+                <li> <a href="list.html">LOGIN</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="gennav">
+                <li> <a href="index.html">HOME</a></li>
+                <li> <a href="list.html">MY TO DO LIST</a></li>
+                <li> <a href="createNew.html">CREATE NEW TASK</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul class="gennav">
-            <li> <a href="index.html">Home</a></li>
-            <li> <a href="createNew.html">New Task Placeholder</a></li>
-        </ul>
-    </nav>
     <article>
         <section>
-            <h1>Welcome to my site. Please come in and stay awhile.</h1>	
-            <p> 
-                i.	I started this web site because Christmas has always been my favorite holiday. Last year, I started selling some of my favorite Christmas products and they’ve become quite a hit.
-            </p>
-
-            <p>
-                ii.	If you click on the personal link, you can browse my favorite Christmas pictures, stories and films. If you join my email list, I will keep you you up-to-date on all things Christmas.
-            </p>
             <h2>Task Highlights</h2>
+            <p>Here you can see all of your upcoming tasks in your logbook and their details along with a brief explanation.</p>
             <div class="detailparent">
                 <div class="detailcard">
-                    <img src="Christmas-Tree-3.jpg" alt="Task1">
+                    <img class="images" src="Urgent.png" alt="Task1">
                     <div class="container">
-                        <h3><b>Task1</b></h3> 
-                        <p>Category:</p> 
-                        <p>Due Date:</p>
-                        <p>Location:</p>
-                        <p class="sale">Staus:</p>
-                        <br><br>
+                        <h3><b>Milestone Project 1</b></h3> 
+                        <p>Category: URGENT!</p> 
+                        <p>Due Date: Friday, February 10, 2023 11:59PM</p>
+                        <p>Location: George M. Skurla Hall College Of Aeronautics - 180 W University Blvd, Melbourne, FL 32901</p>
+                        <p class="status">Staus: Pending</p>
+                        <br>
                         <p>Description: </p>
-                        <textarea rows="10" cols="40"></textarea><br><br>
-                        <a href="list.html"><button type="button">Add Task</button></a>
+                        <textarea rows="10" cols="40">Develop a dynamic web application as a group in HTML5.</textarea><br><br>
+                        <form action="list.html"><button>Add Task</button></form>
                     </div>
                 </div>
                 <div class="detailcard">
-                    <img src="Christmas-Bells.jpg" alt="Task2">
+                    <img class="images" src="Not-Urgent.png" alt="Task2">
                     <div class="container">
-                        <h3><b>Task2</b></h3> 
-                        <p>Category:</p> 
-                        <p>Due Date:</p>
-                        <p>Location:</p>
-                        <p class="sale">Staus:</p>
-                        <br><br>
+                        <h3><b>Lab 4</b></h3> 
+                        <p>Category: Not Urgent</p> 
+                        <p>Due Date: Friday, February 10, 2023 11:59PM</p>
+                        <p>Location: George M. Skurla Hall College Of Aeronautics - 180 W University Blvd, Melbourne, FL 32901</p>
+                        <p class="status">Staus: Done</p>
+                        <br>
                         <p>Description: </p>
-                        <textarea rows="10" cols="40"></textarea><br><br>
-                        <a href="list.html"><button type="button">Add Task</button></a>
+                        <textarea rows="10" cols="40">Tailwind, CSS Preprocessor, Basic JavaScript and Website Evaluation Assignment.</textarea><br><br>
+                        <form action="list.html"><button>Add Task</button></form>
                     </div>
                 </div>
                 <div class="detailcard">
-                    <img src="Christmas-Toys.jpg" alt="Task3">
+                    <img class="images" src="Important.png" alt="Task3">
                     <div class="container">
-                        <h3><b>Task3</b></h3> 
-                        <p>Category:</p> 
-                        <p>Due Date:</p>
-                        <p>Location:</p>
-                        <p class="sale">Staus:</p>
-                        <br><br>
+                        <h3><b>Lab 5</b></h3> 
+                        <p>Category: Important</p> 
+                        <p>Due Date: Friday, February 17, 2023 11:59PM</p>
+                        <p>Location: George M. Skurla Hall College Of Aeronautics - 180 W University Blvd, Melbourne, FL 32901</p>
+                        <p class="status">Staus: Incomplete</p>
+                        <br>
                         <p>Description: </p>
-                        <textarea rows="10" cols="40"></textarea><br><br>
-                        <a href="list.html"><button type="button">Add Task</button></a>
+                        <textarea rows="10" cols="40">Implement a calculator using Vanilla JavaScript.</textarea><br><br>
+                        <form action="list.html"><button>Add Task</button></form>
                     </div>
                 </div>
             </div>
             <aside>
                 <a href="https://www.google.com/maps/place/Florida+Institute+of+Technology/@28.0646888,-80.6252107,17z/data=!3m1!4b1!4m5!3m4!1s0x88de1204fc52a6f7:0x37ba57635d6a3f15!8m2!3d28.0646888!4d-80.623022"
                     >Google Maps - FIT</a>
-                <div><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3520.6834397117545!2d-80.62521068493011!3d28.064688782645106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88de1204fc52a6f7%3A0x37ba57635d6a3f15!2sFlorida%20Institute%20of%20Technology!5e0!3m2!1sen!2sus!4v1674355685265!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <div><iframe width="1100" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3520.6834397117545!2d-80.62521068493011!3d28.064688782645106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88de1204fc52a6f7%3A0x37ba57635d6a3f15!2sFlorida%20Institute%20of%20Technology!5e0!3m2!1sen!2sus!4v1674355685265!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                 <br>
-            </aside >
+            </aside>
         </section>
     </article>
 
-<footer>© 2023 Jovany Caraballo</footer>
+<footer>© 2023 Milestone 1</footer>
 	<!-- <a href="http://validator.w3.org/check?uri=referer">Validate</a> 	 -->
 </body>
 </html>
