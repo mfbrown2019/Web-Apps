@@ -63,16 +63,24 @@ header > div {
   background-color: #6B0504;
 }
 
-a {
+li > a {
   color: #FBFFFE;
   text-decoration: none;
 }
 
-a:hover {
+li > a:hover {
   color: #E6AF2E;
   font-weight: bold;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3a2ee6;
+}
 
 li {
   list-style-type: none;
