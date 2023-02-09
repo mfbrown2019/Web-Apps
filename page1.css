@@ -22,7 +22,11 @@
 
 @keyframes shake {
   0% {transform: rotate(-30deg); margin-left: 10%;}
+  15% {transform: rotate(30deg);}
+  30% {transform: rotate(-30deg);}
   50% {transform: rotate(30deg); margin-left: 80%;}
+  65% {transform: rotate(-30deg);}
+  80% {transform: rotate(30deg);}
   100% {transform: rotate(-30deg); margin-left: 10%;}
 }
 
