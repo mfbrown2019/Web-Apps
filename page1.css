@@ -49,6 +49,12 @@ header > div {
   padding-left: 1rem;
 }
 
+.loginname {
+    justify-content: right;
+    width: 99%;
+    height: 30px;
+}
+
 .usernav {
   border-bottom: 3px solid black;
   justify-content: right;
