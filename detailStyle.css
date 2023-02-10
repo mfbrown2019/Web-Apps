@@ -2,6 +2,13 @@
     padding: 0px;
     margin: 5px;
   }
+
+ .top {
+    text-align: center;
+    background: -webkit-linear-gradient(-180deg, black, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   
   .paw {
     width: 100px;
@@ -13,9 +20,13 @@
   }
   
   @keyframes shake {
-    0% {transform: rotate(-30deg);}
-    50% {transform: rotate(30deg);}
-    100% {transform: rotate(-30deg);}
+    0% {transform: rotate(-30deg); margin-left: 30%;}
+    15% {transform: rotate(30deg);}
+    30% {transform: rotate(-30deg);}
+    50% {transform: rotate(30deg); margin-left: 65%;}
+    65% {transform: rotate(-30deg);}
+    80% {transform: rotate(30deg);}
+    100% {transform: rotate(-30deg); margin-left: 30%;}
   }
   
   body {
